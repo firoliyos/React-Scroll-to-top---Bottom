@@ -1,8 +1,9 @@
+import ScrollToTopAndBottom from "./components";
 
 function App() {
   return (
     <div className="App">
-     APP
+     <ScrollToTopAndBottom />
     </div>
   );
 }
