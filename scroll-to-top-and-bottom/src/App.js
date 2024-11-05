@@ -1,9 +1,11 @@
 import ScrollToTopAndBottom from "./components";
+import ScrollToSection from "./components/scroll-to-particular-section";
 
 function App() {
   return (
     <div className="App">
-     <ScrollToTopAndBottom />
+     {/* <ScrollToTopAndBottom /> */}
+     <ScrollToSection />
     </div>
   );
 }
